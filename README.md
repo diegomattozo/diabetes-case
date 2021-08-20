@@ -8,11 +8,13 @@ Crie um ambiente virtual no python:
 python3 -m venv .venv
 ```
 Ative seu ambiente virtual:
+<<<<<<< HEAD
 ```bash
 source .venv/bin/activate
 ```
 Instale os pacotes necessários:
 ```bash
+
 > pip install -r requirements.txt
 ```
 Inicie o jupyter lab para ver os resultados nos notebooks
