@@ -5,12 +5,11 @@
 Após clonar esse repositório, você deve realizar os passos a seguir:
 Crie um ambiente virtual no python:
 ```bash
-python3 -m venv .venv
+> python3 -m venv .venv
 ```
 Ative seu ambiente virtual:
-<<<<<<< HEAD
 ```bash
-source .venv/bin/activate
+> source .venv/bin/activate
 ```
 Instale os pacotes necessários:
 ```bash
@@ -27,6 +26,6 @@ Os notebooks com a análise explorátoria, resposta das questões, data prep e m
 ## Escoragem em um novo público
 Para escorar um público específico é só utilizar o cli disponível:
 ```bash
-python cli.py --input-data='data/raw/diabetes_data_upload.csv' --output-data='data/processed/diabetes_data_scored.csv'
+> python cli.py --input-data='data/raw/diabetes_data_upload.csv' --output-data='data/processed/diabetes_data_scored.csv'
 ```
 Vale ressaltar que é necessário que a base esteja em disco e no formato csv.
