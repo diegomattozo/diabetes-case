@@ -25,5 +25,5 @@ args = parser.parse_args()
 input_file = args.input_data
 output_file = args.output_data
 if input_file is None or output_file is None:
-    raise Exception("Cannot run pipeline without `--input_file` and `--output_file`")
+    raise Exception("Cannot run pipeline without `--input-data` and `--output-data`")
 score_model(input_file, output_file)
