@@ -10,7 +10,7 @@ Crie um ambiente virtual no python:
 Ative seu ambiente virtual:
 > source .venv/bin/activate
 
-Instação dos pacotes necessários:
+Instale dos pacotes necessários:
 > pip install -r requirements.txt
 
 Inicie o jupyter lab para ver os resultados nos notebooks
