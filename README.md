@@ -3,6 +3,7 @@
 ## Utilização
 
 Após clonar esse repositório, você deve realizar os passos a seguir:
+
 Crie um ambiente virtual no python:
 ```bash
 > python3 -m venv .venv
