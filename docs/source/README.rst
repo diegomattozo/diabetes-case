@@ -41,3 +41,18 @@ You can use the command line interface in `cli.py` to score a new dataset:
    > python cli.py --input-data='data/raw/diabetes_data_upload.csv' --output-data='data/processed/diabetes_data_scored.csv'
 
 The input-data must be a csv file.
+
+Documentation
+----------------
+
+Project docs are built with sphinx. So, first you need to install sphinx with pip:
+
+.. code-block:: bash
+
+   > pip install sphinx
+
+Then go to the `docs` folder and run the following command to generate the html inside the `docs/build/html` folder.
+
+.. code-block:: bash   
+
+   > make html
