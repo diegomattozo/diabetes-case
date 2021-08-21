@@ -14,8 +14,10 @@ import os
 import sys
 import shutil
 
-sys.path.insert(0, os.path.abspath("../.."))
-shutil.copy("../../README.rst", "./")
+sys.path.insert(0, os.path.abspath(os.path.join("..", "..")))
+shutil.copy(
+    os.path.realpath(os.path.join("..", "..", "README.rst")), os.path.realpath(".")
+)
 
 
 # -- Project information -----------------------------------------------------
