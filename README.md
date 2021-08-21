@@ -1,4 +1,4 @@
-## Diabetes Case
+# Diabetes Model
 
 ## Utilização
 
